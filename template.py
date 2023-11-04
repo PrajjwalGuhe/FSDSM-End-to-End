@@ -1,5 +1,5 @@
 import os
-from pathlib_1 import Path
+from pathlib import Path
 
 package_name="DimondPricePrediction"
 
