@@ -1,2 +1,75 @@
-<h1>Welcome To Data Science Project Session</h1>
-<h2>Diamond Prediction</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Checker</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 10%; /* Adjust the width as needed */
+        }
+
+        .know-your-price-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .know-your-price-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diamond Price Checker</h1>
+        <p>Your trusted source for diamond prices</p>
+    </header>
+    
+    <!-- Add your attractive images here -->
+    <img src="https://static5.depositphotos.com/1029500/392/i/450/depositphotos_3929513-stock-photo-diamond.jpg" alt="Attractive Image 1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VLZNBzDWxlvSJ2T3kjaHPciPPImMuKUFwGVIrVazW7Yc2RPFbjMHxAgrJizChs1GguI&usqp=CAU" alt="Attractive Image 2">
+
+    <!-- Button to redirect to "/predict" -->
+    <a href="/predict" class="know-your-price-button">Know Your Price</a>
+</body>
+</html>
