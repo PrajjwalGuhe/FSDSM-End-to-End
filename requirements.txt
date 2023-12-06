@@ -4,4 +4,6 @@ numpy
 seaborn
 matplotlib
 Flask
--e.
+mlflow==2.2.2
+dvc
+# -e.
